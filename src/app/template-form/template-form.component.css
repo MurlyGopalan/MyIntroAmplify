@@ -1,0 +1,22 @@
+
+.star-div {
+    padding-top: 20px;
+    padding-left:20px;
+}
+
+.head-text{
+    font-weight: bold;
+    font-family: cursive;
+}
+
+.form-lbl {
+    color: blue;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.input-lbl {
+    color: blue;
+    width: 200px;
+}

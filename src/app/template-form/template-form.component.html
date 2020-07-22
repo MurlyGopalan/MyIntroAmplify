@@ -1,0 +1,21 @@
+<div class="form-group star-div"> 
+  <p class="head-text">Star Form:</p>
+  <form (ngSubmit)="onSubmit()" >
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <table>
+              <td><label class="form-lbl" for="name">Name:</label></td>
+              <td><input width="100px" type="text" class="form-control input-lbl" id="name" required [(ngModel)]="MyStar.name" name="name"></td>
+          </table>
+        </div>
+        <div class="col">
+          <table>
+              <td><label class="form-lbl" for="name">Distance:</label></td>
+              <td><input width="100px" type="text" class="form-control input-lbl" id="name" required [(ngModel)]="MyStar.distance" name="distance"></td>
+          </table>
+        </div>
+      </div>
+  </div>
+  </form>
+</div>>

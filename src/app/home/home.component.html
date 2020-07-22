@@ -1,0 +1,19 @@
+
+<div class="home-top-div">
+  <span>
+    <p class="head-text">Some Tech Demos:</p>
+  </span>
+
+  <ul class="techlist-ul">
+    <li class="techlist-li">
+      <button class="btn btn-primary" (click)="clickTemplateForm()">Template Form </button>
+    </li>
+    <li class="techlist-li">
+      <button class="btn btn-primary">MongoDb</button>
+    </li>
+  </ul>
+
+  <span *ngIf="hideTemplate">
+    <app-template-form></app-template-form>
+  </span>
+</div>

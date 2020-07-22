@@ -1,0 +1,28 @@
+.home-top-div {
+    margin-top: 25px;
+}
+
+.head-text{
+    margin-left: 20px;
+    font-weight: bold;
+    font-family: cursive;
+}
+.techlist-ul {
+    padding-top: 20px;
+    color: darkcyan;
+}
+
+.techlist-li {
+    padding-top:10px;
+}
+
+.btn-primary {
+    color: white;
+    background-color: darkcyan;
+}
+
+h6 {
+    font-weight: bold;
+    color: darkcyan;
+    margin-left: 30px;
+}

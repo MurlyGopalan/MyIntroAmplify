@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Murly's Cool website </title>
+  <meta name="description" content="Murly's Personal website">
+</head>
+  <body>
+      <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="../assets/img/space-log.png" width="150" height="65"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+            <span class="navbar-toggler-icon"></span>  
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" routerLink="About" routerLinkActive="active">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" routerLink="Home">Profession</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Hobbies</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <ng-content></ng-content>
+
+      <router-outlet></router-outlet>
+  </body>
+
+</html>
